@@ -5,8 +5,14 @@ public class MoveWords{
     public static final int EMPATE = 0;
     public static final int GANA = 1;
     public static final int PIERDE = 2;
+    
+    public static final String TIJERAS = "TIJERAS";
+    public static final String PAPEL = "PAPEL";
+    public static final String PIEDRA = "PIEDRA";
+    public static final String LAGARTO = "TORITO";
+    public static final String SPOCK = "SEPIA";
 
-    private static final String[] validMoves = {"TIJERAS", "PAPEL", "PIEDRA", "LAGARTO", "SPOCK"};
+    private static final String[] validMoves = {TIJERAS, PAPEL, PIEDRA, LAGARTO, SPOCK};
     private static final String[] validCommands = {"SALIR", "HELP"};
 
     private Random rnd;
